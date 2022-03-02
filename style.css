@@ -61,11 +61,11 @@ body{
 
 @media screen and (min-width : 481px) and (max-width : 768px) {
 	.heading {
-		font-size:25px;
-		width:92%;
+		font-size:20px;
+		width:90%;
 	}
 	.grid-item {
-		 width: 26%;
+		 width: 22%;
  
 }
 	
@@ -73,15 +73,31 @@ body{
 		margin-left: 10px;
   display: flex;
  flex-wrap:wrap;
-	background: #e9eaeb;
 		flex-direction: row;
 		justify-content: flex-start;
 	}
+	.par {
+		width:90%;
+		margin: 0 auto;
+	}
 }
+@media screen and (min-width : 601px  ) and (max-width : 962px) {
+	.heading {
+		width:96%;
 
+	}
+	.grid {
+		margin-left: 30px;
+	}
+	.grid-item {
+		 width: 25%;
+ 
+}
+}
 @media screen and (min-width : 769px  ) and (max-width : 1024px) {
 	.heading {
-		width:92%;
+		width:96%;
+
 	}
 	.grid-item {
 		 width: 15%;
@@ -94,12 +110,14 @@ body{
 		flex-direction: row;
 		justify-content: flex-start;
 	}
-}
+
 .par {
 	width:95%;
 	margin: 0 auto;
 	text-align: justify;
 }
+	}
+	
 @media screen and (min-width : 1025px ) and (max-width : 1200px) {
 	.heading {
 		width:94%;
