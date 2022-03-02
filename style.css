@@ -83,7 +83,7 @@ body{
 }
 @media screen and (min-width : 767px  ) and (max-width : 962px) {
 	.heading {
-		width:96%;
+		width:82%;
 
 	}
 	.grid {
@@ -106,7 +106,6 @@ body{
 .grid {
   display: flex;
  flex-wrap:wrap;
-	background: #e9eaeb;
 		flex-direction: row;
 		justify-content: flex-start;
 	}
@@ -122,4 +121,15 @@ body{
 	.heading {
 		width:94%;
 	}
+}
+@media screen and (min-width : 1201px ) and (max-width : 1700px) {
+
+		.heading {
+		width:90%;
+
+	}
+	.grid-item {
+		 width: 15%;
+ 
+}
 }
